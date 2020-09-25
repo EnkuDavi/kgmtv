@@ -1,0 +1,312 @@
+nav{
+    background-color:#e10c0c;
+}
+
+.carousel-inner{
+    height: 600px;
+}
+
+.carousel-inner img{
+    height: 600px;
+}
+
+.kotak{
+    height: 140px;
+    width: 220px;
+    border-radius: 3%;
+}    
+
+.kotakVideo{
+    border-radius: 3%;
+}
+
+.display{
+    width: 50%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#logo img{
+    width: 300px;
+}
+
+#tentang1{
+    text-align: justify;
+}
+
+#kontak{
+    background-color: #f7f052;
+    padding:20px;
+    height:max-content;
+}
+
+#kontak ul{
+    list-style: none;
+    line-height:30px;
+}
+
+.footer{
+    background-color: #1a1717;
+    text-align: center;
+    height: 50px;
+    color: white;
+    padding: 10px;
+    
+}
+
+.links{
+    margin-left: -40px;
+}
+
+.size{
+    background-size: 100% 100px;
+}
+
+.rata{
+    text-align: justify;
+}
+
+.flex-video{
+    max-width: 800px;
+    display: flex;
+    
+}
+
+.frame{
+    width: 100%;
+}
+
+.frameVideo{
+    height: 680px;
+}
+
+.daftarVideo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.daftar{
+    max-height: 600px;
+}
+
+.daftar-judul{
+    margin-left: -80px;
+}
+
+.judul-live{
+    margin-top: -28%;
+}
+
+.flex-service{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 812px)
+{
+
+    *{
+        font-size: 0.9em;
+    }
+
+    
+    .carousel-inner{
+        height: 300px;
+    }
+
+    .carousel-inner img{
+        height: 300px;
+    }
+
+    #kontak{
+        width: fit-content;
+    }
+
+    #kontak ul{
+        font-size: 0.9em;
+        text-align: left;
+        margin-left: -30px;
+        line-height: 18px;
+    }
+
+    #logo{
+        text-align: center;
+        margin-top:auto;
+    }
+
+    .flex{
+        align-items: center;
+    }
+
+    #logo img{
+        width: 140px;
+    }
+
+    #tentang1{
+        width: 100px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 576px) 
+{
+    *{
+        font-size: 0.9em;
+    }
+
+    .navbar-brand{
+        font-size: 1.2em;
+    }
+    
+    .nav-link{
+        text-align: left;
+        font-size: 1.2em;
+    }
+
+    .carousel-inner{
+        height: 240px;
+    }
+
+    .carousel-inner img{
+        height: 200px;
+    }
+
+    ul li h4{
+        font-size: 1.8em;
+    }
+
+    .judul{
+        font-size: 1.2em;
+    }
+
+    h6{
+        font-size: 0.7em;
+    }
+
+    h5{
+        font-size: 0.9em;
+    }
+
+    .kotak{
+    
+        width: 140px;
+        height: 100px !important;
+    }
+
+    .data-judul{
+        font-size: 1.2em;
+    }
+
+    .kotakVideo{
+        height: 105px;
+        width: 160px;
+    }
+
+    #kontak{
+        width: 100%;
+        height: 180px;
+    }
+
+    #kontak ul{
+        margin-left: 3px;
+        font-size: 0.9em;
+        list-style: none;
+        line-height:16px;
+    }
+
+    .dropdown-item{
+        font-size: 0.6em;
+    }
+
+    #logo{
+        text-align: left;
+
+    }
+
+    #tentang1{
+        margin-left: -20px;
+        width: 260px;
+        text-align: justify;
+    }
+
+    .subscribe{
+        font-size: 1.4em;
+    }
+
+    .buton{
+        margin-top: -70px;
+    }
+
+    #subc{
+        font-size: 0.6em;
+    }
+
+    .flex{
+        align-items: flex-start;
+    }
+
+    #logo img{
+        width: 80px;
+        margin-top: 0px;
+    }
+
+    #tentang2{
+        margin-top: 10px;
+    }
+
+    #visi{
+        margin-top: -20px;
+        text-align: left !important;
+    }
+
+    #tujuan{
+        margin-top: 20px;
+    }
+
+    .card{
+        width: 60px;
+    }
+
+    .frameVideo{
+        height: 300px;
+    }
+
+    .container-frame{
+        position: relative;
+        width: 100%;
+    }
+    
+    .judul-frame{
+        font-size: 1.4em;
+    }
+
+    .btn-share{
+        margin-top: -80px;
+    }
+
+    .btn-share h6{
+        font-size: 0.7em;
+    }
+
+    .daftar{
+        height: 280px;
+    }
+
+    .daftar-video{
+        height: 600px;
+    }
+
+    .judul-daftar{
+        font-size: 1.2em;
+        margin-left: 60px;
+    }
+
+    
+    .judul-live{
+        font-size: 1.4em;
+        margin-top: -14%;
+    }
+}
